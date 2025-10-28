@@ -7,5 +7,6 @@ class Dote < Formula
   def install
     system ENV.cc, "dote.c", "-o", "dote"
     bin.install "dote"
+    version "1.0.0"
   end
 end
